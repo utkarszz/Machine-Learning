@@ -1,0 +1,53 @@
+Supervised ML:-                                    ||  Unsupervised ML:-
+Input+output dono hote hai (Label avialable)       ||Sirf input data hota hai(label nhi hota haii)
+Example: Pass/Fail                                 ||Example: Customers ko groups mei baantna
+Regression,Classification                          ||Clustering
+
+
+
+Unsupervised learning me model ko labels nahi diye jaate.
+
+ Model khud patterns dhundta hai.
+
+
+---
+
+ What is K-Means?
+
+> "K-Means dataset ko groups (clusters) me divide karta hai, based on similarity."
+
+
+
+K = number of groups (clusters)
+Means = mean of values (center point / centroid)
+
+Example:
+
+Mall me customers ke data (age, spending score) se model khud pata lagata hai ki:
+
+Group A: students
+
+Group B: middle age high spenders
+
+Group C: low spend customers
+
+
+
+
+---
+
+ Steps of K-Means (very simple)
+
+1. Decide number of clusters (K)
+
+
+2. Random K points select → inhe bolte hain centroids
+
+
+3. Each data point ko nearest centroid se assign karo
+
+
+4. Centroid update karo (mean ke hisaab se)
+
+
+5. Until centroids stop moving → repeat
